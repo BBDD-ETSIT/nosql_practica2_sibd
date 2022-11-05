@@ -1,6 +1,6 @@
 // IMPORTS
 const path = require('path');
-const User = require('../user.json');
+const User = require('../../user.json');
 
 // CRITICAL ERRORS
 let error_critical = null;
@@ -11,8 +11,8 @@ let connection;
 
 const mongoose = require('mongoose');
 let Admin = mongoose.mongo.Admin;
-const Company = require('./company');
-const Result = require('./result');
+const Company = require('../utils/company');
+const Result = require('../utils/result');
 
 let withDebug = false;
 const debug = (...args) => {
