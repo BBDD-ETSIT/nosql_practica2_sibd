@@ -2,15 +2,12 @@
     "name": "nosql_practica2",
     "version": "0.0.0",
     "description": "autoCOREctor de la asignatura de BBDD (UPM)",
-    "main": "dist/index.js",
     "disableHashCheck": true,
     "capturesFolder": "miscapturas",
     "capturesNumber": 2,
-    "bin": {
-        "autocorector": "./dist/index.js"
-    },
     "keywords": [
-        "CORE",
+        "BBDD",
+        "NoSQL",
         "self-assessment"
     ],
     "author": "ging",
