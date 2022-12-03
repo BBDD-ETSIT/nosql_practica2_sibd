@@ -6,7 +6,7 @@ const User = require('../../user.json');
 let error_critical = null;
 let dbname = "data";
 let coleccion = "companies";
-const URL = 'mongodb://localhost:27017/' + dbname;
+const URL = 'mongodb://127.0.0.1:27017/' + dbname;
 let connection;
 
 const mongoose = require('mongoose');
